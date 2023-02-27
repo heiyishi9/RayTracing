@@ -1,0 +1,5 @@
+﻿  main.cpp
+D:\Learning\VS2022\Projects\RayTracing3\RayTracing3\vec3.h(220,20): warning C4244: “=”: 从“double”转换到“char”，可能丢失数据
+D:\Learning\VS2022\Projects\RayTracing3\RayTracing3\vec3.h(221,20): warning C4244: “=”: 从“double”转换到“char”，可能丢失数据
+D:\Learning\VS2022\Projects\RayTracing3\RayTracing3\vec3.h(222,20): warning C4244: “=”: 从“double”转换到“char”，可能丢失数据
+  RayTracing3.vcxproj -> D:\Learning\VS2022\Projects\RayTracing3\x64\Debug\RayTracing3.exe
