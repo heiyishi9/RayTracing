@@ -3,13 +3,14 @@
 
 #include "rtweekend.h"
 
+// ç›¸æœº
 class camera {
 public:
     camera(
         vec3 lookfrom, vec3 lookat, vec3 vup,
-        double vfov,                            // ´ÓÉÏµ½ÏÂ£¬ÒÔ¶ÈÊıÎªµ¥Î»
+        double vfov,                            // ä»ä¸Šåˆ°ä¸‹ï¼Œä»¥åº¦æ•°ä¸ºå•ä½
         double aspect, 
-        double aperture, double focus_dist      // ¿×¾¶ºÍ½¹¾à
+        double aperture, double focus_dist      // å­”å¾„å’Œç„¦è·
     ) 
     {
         origin = lookfrom;
@@ -41,7 +42,7 @@ public:
     vec3 lower_left_corner;
     vec3 horizontal;
     vec3 vertical;
-    vec3 u, v, w;               // ÉãÏñ»úµÄxyz
-    double lens_radius;         // ÉãÏñ»ú¿×¾¶(¹âÈ¦)µÄ°ë¾¶
+    vec3 u, v, w;               // æ‘„åƒæœºçš„xyz
+    double lens_radius;         // æ‘„åƒæœºå­”å¾„(å…‰åœˆ)çš„åŠå¾„
 };
 #endif
